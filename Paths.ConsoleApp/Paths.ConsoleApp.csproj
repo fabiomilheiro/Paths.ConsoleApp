@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Path examples\Small\1 - Copy\" />
+    <Folder Include="Path examples\Small\1\" />
+    <Folder Include="Path examples\Very large path\1 - Copy %282%29\" />
+    <Folder Include="Path examples\Very large path\1 - Copy\" />
+    <Folder Include="Path examples\Very large path\1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
